@@ -13,7 +13,7 @@ function factorial(num){
 		return 1;
 	}
 	for(i = 1; i <= num; i++){
-		sum *= i; // use multiplication assigner to create 
+		sum *= i; // use multiplication assigner
 	}
 	return sum;
 }
