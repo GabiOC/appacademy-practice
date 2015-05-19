@@ -9,7 +9,7 @@ ex. greatest_common_factor(3, 9) == 3
 - use modulo operator to check if num2 divides num1 with no remainder
 - if it does, return num2 as gcd
 - else, recursively repeat function, using (num2, (num1 % num2)) as the input
-(once the remainder is 0, the remainder of the previous division will be the gcd) */
+(euclid's algorithm) */
 
 function gcd(num1, num2){
 	if(num1 % num2 == 0){
