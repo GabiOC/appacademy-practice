@@ -8,7 +8,7 @@ function isPrime(num){
 	}
 
 	for(i = 2; i < num; i++){
-		if(num % i == 0){ // if num is divisible with no remainder by 2<num, it's not prime
+		if(num % i == 0){ // if num is divisible with no remainder by 2 to <num, it's not prime
 			return false;
 		}
 	}

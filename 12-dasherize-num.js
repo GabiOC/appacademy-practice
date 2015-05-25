@@ -36,7 +36,7 @@ function dasherizeNum(num){
 		}
 	}
 	
-	return dashStr.join("").replace(/--/g, "-"); // return array as string, globally replacing instances of double dashes with single
+	return dashStr.join("").replace(/--/g, "-"); // return array as string, globally replacing instances of double dashes with single dash
 }
 
 console.log(dasherizeNum(203)); // 20-3
